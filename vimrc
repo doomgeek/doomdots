@@ -59,4 +59,5 @@ autocmd FileType calendar set noexpandtab shiftwidth=4 softtabstop=0
 
 "==[ Load Vim scripts with pathogen ]==================================
 
-"execute pathogen#infect()
+runtime bundle/vim-pathogen/autoload/pathogen.vim
+execute pathogen#infect()
