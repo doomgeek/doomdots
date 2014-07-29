@@ -14,5 +14,5 @@ if [ -e $HOME/.bashrc.local ]; then
 fi
 
 if [ -e $HOME/.profile ]; then
-    source ~/.profile
+    source $HOME/.profile
 fi
