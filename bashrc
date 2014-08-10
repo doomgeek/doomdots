@@ -12,7 +12,3 @@ PS1="\w\$(get_git_branch)$ "
 if [ -e $HOME/.bashrc.local ]; then
     source $HOME/.bashrc.local
 fi
-
-if [ -e $HOME/.profile ]; then
-    source $HOME/.profile
-fi
