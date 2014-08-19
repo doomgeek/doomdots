@@ -49,6 +49,7 @@ set statusline=%F%m%r%h%w\ %{&ff}\ %y\ %L\ %03l,%03v
 "set statusline=%F%m%r%h%w\ %{&ff}\ %y\ %L\ %03l,%03v\ %{fugitive#statusline()}
 highlight ErrorMsg ctermbg=red guibg=red
 highlight ColorColumn ctermbg=magenta
+highlight SpellBad ctermfg=000 ctermbg=003 cterm=none
 call matchadd('ColorColumn', '\%80v', 100)
 
 "==[ Override defaults per Filetype ]==================================
