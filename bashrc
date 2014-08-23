@@ -12,3 +12,8 @@ PS1="\w\$(get_git_branch)$ "
 if [ -e $HOME/.bashrc.local ]; then
     source $HOME/.bashrc.local
 fi
+
+EDITOR=$(which vim)
+GIT_EDITOR=$EDITOR
+
+export EDITOR GIT_EDITOR
